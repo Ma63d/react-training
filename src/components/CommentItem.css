@@ -1,0 +1,20 @@
+@value colors: "../style/common.css";
+@value blue from colors;
+
+.message {
+    composes: center from '../style/common.css';
+    background: #f8f8f8;
+    padding: 12px 18px;
+}
+.message-header {
+    color: #ddd;
+    margin-bottom: 10px;
+}
+.message-body {
+    color: #111;
+    margin-bottom: 20px;
+}
+.username {
+    color: blue;
+    padding-right: 5px;
+}
